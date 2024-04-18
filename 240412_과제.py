@@ -137,7 +137,7 @@ Number = random.sample(range(1, 47), 6)
 Number.sort()
 
 # 당첨 결과 출력
-if Main_Choice == Main_Key:
+if Main_Choice == Sub_Choice and Main_Key == Sub_Key:
     print("축하합니다! 1등 복권에 당첨되셨습니다.\n")
     print("복권 번호는 QR 코드를 통해서 전달됩니다.")
     
